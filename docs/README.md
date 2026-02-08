@@ -317,7 +317,7 @@ When making changes to the codebase:
 
 ## Document Maintenance
 
-- **Last Updated:** February 2024
+- **Last Updated:** February 2026
 - **Version:** 1.0
 - **Maintained By:** Rachit and contributors
 - **Update Frequency:** As features are added
@@ -357,4 +357,4 @@ Have feedback on the documentation?
 
 ---
 
-**Created by Rachit** | Last Updated: February 2024
+**Created by Rachit** | Last Updated: February 2026
