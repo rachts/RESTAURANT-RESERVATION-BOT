@@ -39,7 +39,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/restaurant-reservation-bot.git
+git clone https://github.com/rachts/restaurant-reservation-bot.git
 cd restaurant-reservation-bot
 
 # Install and run
