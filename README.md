@@ -49,7 +49,7 @@ A modern, conversational AI-powered restaurant reservation system built with Nex
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone <https://github.com/rachts/RESTAURANT-RESERVATION-BOT>
 cd restaurant-reservation-bot
 ```
 
