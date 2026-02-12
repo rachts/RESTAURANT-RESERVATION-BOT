@@ -1,360 +1,200 @@
 # Documentation Index
 
-Welcome to the Restaurant Reservation Chatbot documentation! This guide will help you navigate all available documentation.
+Welcome to the Restaurant Reservation Chatbot documentation. This index provides a structured entry point to all technical and project-related documentation.
+
+---
 
 ## Quick Navigation
 
-### 🚀 Getting Started
-- **New to the project?** Start here → [SETUP.md](./SETUP.md)
-- **Want to deploy?** → [DEPLOYMENT.md](./DEPLOYMENT.md)
-- **Contributing?** → [../CONTRIBUTING.md](../CONTRIBUTING.md)
+### Getting Started
 
-### 📚 Learning Resources
-- **How does it work?** → [ARCHITECTURE.md](./ARCHITECTURE.md)
-- **API Reference** → [API.md](./API.md)
-- **Main README** → [../README.md](../README.md)
+* **Project setup:** [SETUP.md](./SETUP.md)
+* **Production deployment:** [DEPLOYMENT.md](./DEPLOYMENT.md)
+* **Contributing guidelines:** [../CONTRIBUTING.md](../CONTRIBUTING.md)
+
+### Technical Reference
+
+* **System design:** [ARCHITECTURE.md](./ARCHITECTURE.md)
+* **API & logic reference:** [API.md](./API.md)
+* **Project overview:** [../README.md](../README.md)
 
 ---
 
 ## Documentation Structure
 
-### [SETUP.md](./SETUP.md) - Local Development Guide
+### SETUP.md – Local Development Guide
 
-**For:** Developers setting up the project locally
+**Audience:** Developers setting up the project locally
 
-**Contents:**
-- Prerequisites and environment setup
-- Installation instructions
-- Running the development server
-- Project structure walkthrough
-- Common development tasks
-- Troubleshooting guide
-- IDE configuration
-- Git workflow
+**Covers:**
 
-**When to use:**
-- First time setting up the project
-- Local development issues
-- Understanding project structure
-- Setting up your editor
+* Prerequisites and environment setup
+* Installation and configuration
+* Running the development server
+* Project structure overview
+* Common development workflows
+* Troubleshooting and IDE setup
 
-**Read time:** 15-20 minutes
+**Use when:**
+
+* Setting up the project for the first time
+* Resolving local development issues
+* Understanding the folder and file structure
 
 ---
 
-### [ARCHITECTURE.md](./ARCHITECTURE.md) - System Design
+### ARCHITECTURE.md – System Design and Internals
 
-**For:** Developers understanding how the system works
+**Audience:** Developers and reviewers
 
-**Contents:**
-- System architecture overview
-- Component hierarchy and responsibilities
-- Conversation flow diagrams
-- State management patterns
-- Data models and types
-- Styling architecture
-- Rendering pipeline
-- Performance optimizations
-- Browser APIs used
-- Future integration points
+**Covers:**
 
-**When to use:**
-- Before making major changes
-- Understanding component relationships
-- Planning new features
-- Debugging complex issues
-- Extending the chatbot
+* High-level system architecture
+* Component responsibilities and hierarchy
+* Conversation flow and state transitions
+* Data models and TypeScript types
+* Styling and rendering pipeline
+* Performance considerations
+* Future integration points
 
-**Read time:** 20-30 minutes
+**Use when:**
+
+* Understanding how the chatbot works internally
+* Planning architectural changes
+* Extending or refactoring core logic
 
 ---
 
-### [DEPLOYMENT.md](./DEPLOYMENT.md) - Production Deployment
+### DEPLOYMENT.md – Deployment and Operations
 
-**For:** Developers deploying to production
+**Audience:** Developers deploying the application
 
-**Contents:**
-- Deployment platform comparison
-- Step-by-step guides for:
-  - Vercel (recommended)
-  - Netlify
-  - Railway
-  - Render
-  - AWS Amplify
-  - Docker containers
-  - Self-hosted VPS
-- Environment variables
-- Custom domain setup
-- SSL certificates
-- Monitoring and analytics
-- Database integration strategies
-- Cost estimation
-- Post-deployment checklist
+**Covers:**
 
-**When to use:**
-- Ready to go live
-- Choosing a hosting platform
-- Setting up custom domain
-- Monitoring production app
-- Scaling as traffic grows
+* Hosting platform comparison
+* Step-by-step deployment guides (Vercel, Netlify, Railway, Render, AWS, Docker, VPS)
+* Environment variable management
+* Custom domains and SSL
+* Monitoring, analytics, and scaling
+* Cost estimation and post-deployment checklist
 
-**Read time:** 30-40 minutes
+**Use when:**
+
+* Deploying to staging or production
+* Selecting a hosting strategy
+* Planning scalability and cost
 
 ---
 
-### [API.md](./API.md) - API and Integration Reference
+### API.md – API and Extension Reference
 
-**For:** Developers integrating with external services
+**Audience:** Developers extending functionality
 
-**Contents:**
-- Current architecture overview
-- Core data structures and types
-- All function signatures and documentation
-- Menu data structure
-- Mock data systems
-- Future API integration points
-- Example backend routes
-- How to extend the chatbot
-- Custom input pattern handling
-- Error handling strategies
-- Performance considerations
-- Security considerations
-- Testing examples
+**Covers:**
 
-**When to use:**
-- Adding new features
-- Integrating with external APIs
-- Understanding data flow
-- Building custom extensions
-- Writing tests
-- Implementing backend endpoints
+* Core logic and chatbot flow APIs
+* Data structures and mock systems
+* Menu and availability handling
+* Extension points for backend integration
+* Error handling and security notes
+* Testing and performance guidance
 
-**Read time:** 25-35 minutes
+**Use when:**
+
+* Adding new features
+* Integrating external services
+* Implementing backend APIs
 
 ---
 
-### [../CONTRIBUTING.md](../CONTRIBUTING.md) - Contribution Guide
+### CONTRIBUTING.md – Contribution Guidelines
 
-**For:** Anyone contributing to the project
+**Audience:** Contributors
 
-**Contents:**
-- Code of conduct
-- How to report issues
-- How to suggest features
-- Pull request process
-- Development guidelines
-- Code style standards
-- Testing requirements
-- Documentation standards
-- Performance optimization tips
-- Accessibility checklist
-- Browser compatibility
-- Git best practices
-- Review process
+**Covers:**
 
-**When to use:**
-- Contributing code
-- Reporting bugs
-- Requesting features
-- Submitting pull requests
-- Understanding coding standards
+* Code of conduct
+* Issue reporting and feature requests
+* Pull request workflow
+* Code style and testing standards
+* Documentation and review process
 
-**Read time:** 15-20 minutes
+**Use when:**
+
+* Contributing code or documentation
+* Reporting bugs or suggesting improvements
 
 ---
 
-### [../README.md](../README.md) - Project Overview
+### README.md – Project Overview
 
-**For:** Everyone - overview of the entire project
+**Audience:** General
 
-**Contents:**
-- Project description
-- Features overview
-- Tech stack
-- Quick start guide
-- Project structure
-- How it works
-- Component documentation
-- Customization guide
-- Deployment overview
-- Browser support
-- Performance metrics
-- Accessibility info
-- Known limitations
-- Future enhancements
-- Support information
+**Covers:**
 
-**When to use:**
-- First time learning about the project
-- Quick reference
-- Sharing with others
-- Understanding capabilities
-- Getting started overview
+* Project goals and features
+* Technology stack
+* Quick start instructions
+* High-level architecture summary
+* Known limitations and future enhancements
 
-**Read time:** 10-15 minutes
+**Use when:**
+
+* Getting a quick understanding of the project
+* Sharing the project with others
 
 ---
 
-## Common Questions
+## Common Entry Points
 
-### "I just cloned the project, what do I do?"
-→ Read [SETUP.md](./SETUP.md) to get your environment ready
-
-### "How do I deploy this to production?"
-→ Read [DEPLOYMENT.md](./DEPLOYMENT.md) to choose your platform and follow the guide
-
-### "I want to understand the codebase better"
-→ Read [ARCHITECTURE.md](./ARCHITECTURE.md) for system design
-
-### "I want to add a new feature"
-→ Read [API.md](./API.md) to understand how to extend the chatbot
-
-### "I found a bug / have a feature idea"
-→ Read [../CONTRIBUTING.md](../CONTRIBUTING.md) to report or suggest
-
-### "I want to contribute code"
-→ Read [../CONTRIBUTING.md](../CONTRIBUTING.md) for the full contribution process
-
-### "How do I integrate this with my backend?"
-→ Read [API.md](./API.md) for integration points and examples
-
-### "What tech stack is this using?"
-→ See [../README.md](../README.md) for tech stack and [ARCHITECTURE.md](./ARCHITECTURE.md) for system design
+* **New to the project:** Start with README.md → SETUP.md
+* **Understanding the system:** ARCHITECTURE.md
+* **Deployment:** DEPLOYMENT.md
+* **Feature development:** API.md
+* **Contributing:** CONTRIBUTING.md
 
 ---
 
-## Learning Paths
+## Suggested Reading Paths
 
-### 👨‍💻 For Developers
+### Developers
 
-1. **First Time Setup**
-   - Read: [../README.md](../README.md) (5 min)
-   - Read: [SETUP.md](./SETUP.md) (15 min)
-   - Do: `npm install` and `npm run dev` (5 min)
-   - Total: 25 minutes
+1. README.md (overview)
+2. SETUP.md (local setup)
+3. ARCHITECTURE.md (system design)
+4. API.md (extension and logic)
+5. DEPLOYMENT.md (production readiness)
 
-2. **Understanding the Code**
-   - Read: [ARCHITECTURE.md](./ARCHITECTURE.md) (20 min)
-   - Read: [API.md](./API.md) (20 min)
-   - Explore: Code files mentioned in docs (15 min)
-   - Total: 55 minutes
+### Reviewers / Evaluators
 
-3. **Making Changes**
-   - Read: [../CONTRIBUTING.md](../CONTRIBUTING.md) (15 min)
-   - Follow: Development guidelines section (10 min)
-   - Implement: Your feature (varies)
-   - Test: Your changes locally (10 min)
-   - Total: 35+ minutes
+1. README.md (problem and solution overview)
+2. ARCHITECTURE.md (design clarity)
+3. DEPLOYMENT.md (practical viability)
 
-4. **Going to Production**
-   - Read: [DEPLOYMENT.md](./DEPLOYMENT.md) (30 min)
-   - Follow: Platform-specific guide (15 min)
-   - Deploy: Your application (10 min)
-   - Verify: Live application works (10 min)
-   - Total: 65 minutes
+### Product / Project Planning
 
-### 🎯 For Project Managers
-
-1. **Quick Overview** (10 minutes)
-   - Read: [../README.md](../README.md) features section
-   - Read: [ARCHITECTURE.md](./ARCHITECTURE.md) system overview
-   - Review: Known limitations section
-
-2. **Technical Understanding** (30 minutes)
-   - Read: [ARCHITECTURE.md](./ARCHITECTURE.md)
-   - Review: [API.md](./API.md) integration points
-   - Understand: Future enhancements
-
-### 🚀 For Product Managers
-
-1. **Feature Overview** (10 minutes)
-   - Read: [../README.md](../README.md) features
-   - Review: Future enhancements section
-
-2. **Integration Planning** (20 minutes)
-   - Read: [API.md](./API.md) future integration points
-   - Review: [DEPLOYMENT.md](./DEPLOYMENT.md) platforms
-
-3. **Roadmap Discussion** (varies)
-   - Reference: Known limitations
-   - Reference: Future enhancements
-   - Plan: Database and API integration
+1. README.md (features and limitations)
+2. ARCHITECTURE.md (scalability and extensibility)
+3. API.md (integration roadmap)
 
 ---
 
-## Document Comparison
+## Maintenance Notes
 
-| Need | Document | Time |
-|------|----------|------|
-| Setup dev environment | SETUP.md | 15 min |
-| Deploy to production | DEPLOYMENT.md | 30 min |
-| Understand system | ARCHITECTURE.md | 25 min |
-| Extend chatbot | API.md | 30 min |
-| Contribute code | CONTRIBUTING.md | 15 min |
-| Quick overview | README.md | 10 min |
+* Keep documentation synchronized with code changes
+* Update examples when logic or APIs change
+* Revise this index if new documents are added
 
----
-
-## Tips for Using Documentation
-
-1. **Use Ctrl+F (Cmd+F on Mac)** to search within documents
-2. **Table of Contents** at the top of each doc
-3. **Links** to other docs for related topics
-4. **Code examples** show real usage patterns
-5. **Sections marked with 🚀** are priority reading
+**Last Updated:** February 2026
+**Version:** 1.0
+**Maintained by:** Rachit
 
 ---
 
-## Keep Documentation Updated
+## External References
 
-When making changes to the codebase:
-- Update relevant docs
-- Add code comments for complex logic
-- Update this index if adding new docs
-- Keep examples current
-
----
-
-## Document Maintenance
-
-- **Last Updated:** February 2026
-- **Version:** 1.0
-- **Maintained By:** Rachit and contributors
-- **Update Frequency:** As features are added
-
----
-
-## What's Not Covered Here
-
-These docs focus on:
-- Development and deployment
-- Architecture and design
-- How to use and extend the chatbot
-
-Not covered (see README for these):
-- Detailed component API (see code comments)
-- Styling details (see tailwind.config.ts)
-- Specific shadcn/ui component docs (see ui.shadcn.com)
-
----
-
-## Questions or Improvements?
-
-Have feedback on the documentation?
-- Open an issue on GitHub
-- Submit a PR with improvements
-- Contact: Rachit
-
----
-
-## Related Resources
-
-- **shadcn/ui Components:** https://ui.shadcn.com
-- **Tailwind CSS Docs:** https://tailwindcss.com
-- **Next.js Docs:** https://nextjs.org
-- **React Docs:** https://react.dev
-- **TypeScript Docs:** https://typescriptlang.org
-
----
-
-**Created by Rachit** | Last Updated: February 2026
+* Next.js Documentation
+* React Documentation
+* TypeScript Documentation
+* Tailwind CSS Documentation
+* shadcn/ui Component Li
